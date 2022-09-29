@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Katalyst</title>
+	<link rel="stylesheet" href="./katalyst_submissioncss.css">
+</head>
+<body>
+			<div>
+				<span class="sp"><a href="">Name</a></span>
+				
+				<img src="./menubar svg.svg" alt="" class="menubaricon" onclick="togglemenu()">
+				<!--
+				<span class="sp1">Option</span>
+				<hr class="l1"></hr>
+				<hr class="l2"></hr>
+				<hr class="l3"></hr>
+				-->
+
+				<nav>
+					<ul id="menuList">
+						<li><a href="">Home</a></li>
+						<li><a href="">Shop</a></li>
+						<li><a href="">About</a></li>
+						<li><a href="">Insights</a></li>
+						<li><a href="">Contact</a></li>
+						<li><a href="">Other</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div>
+				<img src="./katalyst_photo.jpeg" alt=" " class="img1" >
+				<h2 style="color:black">Lorem ipsum</h2>
+				<p class="p1">Lorem ipsum dolor sit amet,consetectur adipiscing elit</p>
+				<button class="button-b4">View More</button>
+				<h3>Lorem ipsum</h3>
+				<p class="p2">Lorem ipsum dolor sit amet,consetectur adipiscing elit</p>
+				<img src="./katalyst_photo.jpeg" alt=" " class="img2">
+				<button class="button-b2">Content</button>
+				<img src="./katalyst_photo.jpeg" alt=" " class="img3">
+				<button class="button-b3">Content</button>
+				<img src="./katalyst_photo.jpeg" alt=" " class="img4">
+				<button class="button-b1">Content</button>
+			</div>
+<script>
+	var menuList = document.getElementById("menuList");
+	menuList.style.maxHeight = "130px";
+	function togglemenu()
+	{
+		if(menuList.style.maxHeight == "0px")
+		{
+			menuList.style.maxHeight = "190px";
+		}
+		else
+		{
+			menuList.style.maxHeight = "0px";
+		}
+	}
+</script>
+		</body>
+</html>
